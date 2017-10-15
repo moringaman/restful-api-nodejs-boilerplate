@@ -20,6 +20,6 @@ app.use('/v1', routes);
 
 app.server.listen(config.port);
 
-console.log(`Server up & Listening at :${server.address().port}`);
+console.log(`Server up & Listening at :${app.server.address().port}`);
 
 export default app;
